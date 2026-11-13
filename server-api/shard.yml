@@ -1,0 +1,16 @@
+name: omu
+version: 0.1.0
+description: Omu - a tiny social network API built on Spectre and PostgreSQL (no ORM)
+crystal: ">= 1.10.0"
+license: MIT
+
+targets:
+  omu:
+    main: src/omu.cr
+
+dependencies:
+  spectre:
+    github: eyszu/spectre
+  pg:
+    github: will/crystal-pg
+    version: ~> 0.28.0

@@ -1,0 +1,14 @@
+# Just PostgreSQL for local development:  docker compose up -d
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: omu
+      POSTGRES_PASSWORD: omu
+      POSTGRES_DB: omu
+    ports:
+      - "5432:5432"
+    volumes:
+      - omu_pg:/var/lib/postgresql/data
+volumes:
+  omu_pg:

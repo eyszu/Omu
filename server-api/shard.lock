@@ -1,0 +1,14 @@
+version: 2.0
+shards:
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.13.1
+
+  pg:
+    git: https://github.com/will/crystal-pg.git
+    version: 0.28.0
+
+  spectre:
+    git: https://github.com/eyszu/spectre.git
+    version: 0.1.0+git.commit.f434a1aaa8024ecbec6768de0c62d11446aa4f73
+
